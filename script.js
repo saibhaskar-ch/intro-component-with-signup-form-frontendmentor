@@ -19,6 +19,7 @@ button.addEventListener("click", (e) => {
     inputElement.focus();
     inputElement.blur();
   });
+  button.focus();
 });
 
 function displayError(id, message) {
